@@ -1,0 +1,13 @@
+.text_block_preloader {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #B6BCBF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 80px;
+    height: 24px;
+    margin: 0;
+}

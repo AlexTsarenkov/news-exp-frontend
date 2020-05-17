@@ -1,0 +1,23 @@
+.result-area__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    width: calc(100% - 208px);
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 768px) {
+    .result-area__container {
+        width: calc(100% - 80px);
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .result-area__container {
+        padding: 32px 0 32px 0;
+        width: calc(100% - 32px);
+    }
+}

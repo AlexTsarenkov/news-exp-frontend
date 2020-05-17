@@ -1,0 +1,12 @@
+.text_block_nav-footer {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 470px) {
+    .text_block_nav-footer {
+        font-size: 18px;
+        line-height: 48px;
+    }
+}

@@ -1,0 +1,13 @@
+.text_block_card {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 16px 0 0 0;
+    font-weight: normal;
+    text-align: left;
+}
+
+@media screen and (max-width: 470px) {
+    .text_block_card {
+        margin: 10px 0 0 0;
+    }
+}

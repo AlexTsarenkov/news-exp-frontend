@@ -1,0 +1,7 @@
+.menu__button_type_icon {
+    height: 24px;
+    width: 24px;
+    background-image: url(../../../../../../images/logout_bk.svg);
+    background-position: center;
+    background-size: cover;
+}

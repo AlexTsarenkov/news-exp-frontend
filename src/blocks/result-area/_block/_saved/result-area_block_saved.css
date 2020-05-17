@@ -1,0 +1,16 @@
+.result-area.result-area_block_saved {
+    display: flex;
+    padding: 62px 0 62px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .result-area_block_saved {
+        padding: 40px 0 22px 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .result-area_block_saved {
+        padding: 24px 0 9px 0;
+    }
+}

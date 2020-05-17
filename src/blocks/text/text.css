@@ -1,0 +1,15 @@
+@import url(./_block/_search/text_block_search.css);
+@import url(./_block/_saved/text_block_saved.css);
+@import url(./_block/_card/text_block_card.css);
+@import url(./_block/_about/text_block_about.css);
+@import url(./_block/_tooltip/text_block_tooltip.css);
+@import url(./_block/_nav-header/text_block_nav-header.css);
+@import url(./_block/_nav-footer/text_block_nav-footer.css);
+@import url(./_block/_preloader/text_block_preloader.css);
+@import url(./_block/_not-found/text_block_not-found.css);
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+

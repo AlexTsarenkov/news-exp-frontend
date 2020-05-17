@@ -1,0 +1,10 @@
+@import url(_type/_bottom/popup__text_type_bottom.css);
+@import url(_type/_input/popup__text_type_input.css);
+@import url(_type/_message/popup__text_type_message.css);
+
+.popup__text.css {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+
+}

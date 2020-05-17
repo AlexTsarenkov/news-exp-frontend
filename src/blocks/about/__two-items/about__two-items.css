@@ -1,0 +1,19 @@
+.about__two-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 0 56px;
+  
+}
+
+@media screen and (max-width: 768px) {
+    .about__two-items {
+        margin: 0 0 0 32px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .about__two-items {
+        margin: 24px 0 0 0;
+    }
+}

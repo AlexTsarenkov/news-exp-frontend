@@ -1,0 +1,27 @@
+.menu_block_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(196, 196, 196, 0.01);
+    height: 80px;
+    padding: 0 104px 0 104px;
+    border-bottom: 1px solid rgba(26, 27, 34, 0.5);
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu_block_header {
+        padding: 0 40px 0 40px;
+        height: 64px;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .menu_block_header {
+        height: 56px;
+        padding: 0 16px 0 16px;
+        align-items: center;
+    }
+}

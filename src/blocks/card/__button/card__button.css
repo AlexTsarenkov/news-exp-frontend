@@ -1,0 +1,14 @@
+@import url(./_type/_add/card__button_type_add.css);
+@import url(./_type/_delete/card__button_type_delete.css);
+
+.card__button {
+    width: 40px;
+    height: 40px;  
+    background-size: cover;
+    background-position: center;
+    border: 0;
+    border-radius: 8px;
+    outline:none;
+    margin: 0 0 0 5px;
+}
+

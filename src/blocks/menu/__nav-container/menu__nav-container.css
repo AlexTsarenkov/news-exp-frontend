@@ -1,0 +1,15 @@
+@import url(./_block/_footer/menu__nav-container_block_footer.css);
+@import url(./_block/_header/menu__nav-container_block_header.css);
+@import url(./_is-expanded/menu__nav-container_is-expanded.css);
+
+.menu__nav-container {
+    box-sizing: border-box;
+    align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+    .menu__nav-container {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,27 @@
+@import url(./__button/menu__button.css);
+@import url(./__button-container/menu__button-container.css);
+@import url(./__copyright/menu__copyright.css);
+@import url(./__expand-button/menu__expand-button.css);
+@import url(./__logo/menu__logo.css);
+@import url(./__nav-container/menu__nav-container.css);
+@import url(./__nav-item/menu__nav-item.css);
+@import url(./__social-media/menu__social-media.css);
+@import url(./__social-icon/menu__social-icon.css);
+@import url(./_block/_footer/menu_block_footer.css);
+@import url(./_block/_header/menu_block_header.css);
+@import url(./__link-container/menu__link-container.css);
+@import url(./__logout-icon/menu__logout-icon.css);
+@import url(./_is-expanded/menu_is-expanded.css);
+@import url(./_is-hidden/menu_is-hidden.css);
+
+.menu {
+    box-sizing: border-box;
+    width: 100%;  
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+

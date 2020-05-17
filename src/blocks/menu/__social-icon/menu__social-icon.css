@@ -1,0 +1,16 @@
+@import url(./_type/_facebook/menu__social-icon_type_facebook.css);
+@import url(./_type/_github/menu__social-icon_type_github.css);
+
+.menu__social-icon {
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu__social-icon:last-child {
+    margin: 0 0 0 28px;
+}
+
+

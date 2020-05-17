@@ -1,0 +1,28 @@
+.menu_block_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    height: 80px;
+    padding: 0 104px 0 104px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .menu {
+        padding: 0 40px 0 40px;
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .menu_block_footer {
+        width: calc(100% - 32px);
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 20px 16px 20px 16px;
+        height: auto;
+    }
+}

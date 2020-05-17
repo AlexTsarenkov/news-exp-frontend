@@ -1,0 +1,24 @@
+@import url(./__content/search__content.css);
+@import url(./__form/search__form.css);
+@import url(./__form-input/search__form-input.css);
+@import url(./__form-button/search__form-button.css);
+
+.search {
+    width: 100%;
+    background: rgba(196, 196, 196, 0.01);
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);    
+    box-sizing: border-box; 
+    padding: 80px 0 80px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .search   {
+        padding: 38px 0 48px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search   {
+        padding: 30px 0 32px 0;
+    }
+}

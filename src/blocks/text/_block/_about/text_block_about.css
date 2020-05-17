@@ -1,0 +1,14 @@
+.text_block_about {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 24px 0 0 0 ;
+    font-weight: normal;
+    max-width: 600px;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .text_block_about {
+        margin: 16px 0 0 0 ;
+    }
+}

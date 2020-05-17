@@ -1,0 +1,11 @@
+@import url(./_type/_icon/_black/menu__button_type_icon_black.css);
+@import url(./_type/_icon/_white/menu__button_type_icon_white.css);
+@import url(./_type/_text/menu__button_type_text.css);
+
+.menu__button {
+    cursor: pointer;
+    background-color: transparent;
+    outline:none;
+    margin: 0;
+}
+

@@ -1,0 +1,25 @@
+.search__content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 608px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .search__content {
+        font-size: 18px;
+        line-height: 24px;
+        width: 448px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .search__content {
+        width: calc(100% - 32px);
+    }
+}
+
+

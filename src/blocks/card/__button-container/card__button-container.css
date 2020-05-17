@@ -1,0 +1,25 @@
+.card__button-container{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .card__button-container{
+        top: 8px;
+        right: 8px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .card__button-container{
+        top: 16px;
+        right: 16px;
+    }
+}
+
+.card__button-container:hover .card__tooltip {
+    display: flex;
+}

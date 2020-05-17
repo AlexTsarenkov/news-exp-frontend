@@ -1,0 +1,21 @@
+.title_block_card {
+    text-align: left;
+    font-size: 26px;
+    line-height: 30px;
+    margin: 12px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    .title_block_card {
+        font-size: 22px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .title_block_card {
+        font-size: 22px;
+        line-height: 28px;
+        margin: 10px 0 0 0;
+    }
+}

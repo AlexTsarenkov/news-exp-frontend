@@ -1,0 +1,50 @@
+{
+  "name": "news-exp-frontend",
+  "version": "0.0.1",
+  "description": "Yandex.Praktikum diploma project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "start": "rimraf dist && webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexTsarenkov/news-exp-frontend.git"
+  },
+  "author": "Aleksey Tsarenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexTsarenkov/news-exp-frontend/issues"
+  },
+  "homepage": "https://github.com/AlexTsarenkov/news-exp-frontend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "autoprefixer": "^9.8.0",
+    "babel-loader": "^8.1.0",
+    "bable-loader": "0.0.1-security",
+    "core-js": "^3.4.1",
+    "cross-env": "^7.0.2",
+    "css-loader": "^3.5.3",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.0.0",
+    "gh-pages": "^2.2.0",
+    "html-webpack-plugin": "^4.3.0",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "mini-svg-data-uri": "^1.2.3",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "svgo-loader": "^2.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}

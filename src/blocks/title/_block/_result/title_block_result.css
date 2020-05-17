@@ -1,0 +1,26 @@
+.title_block_result {
+    text-align: left;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0 0 64px 0;
+    max-width: 712px;
+}
+
+@media screen and (max-width: 768px) {
+    .title_block_result {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0 0 32px 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .title_block_result {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 0 0 24px 0;
+    }
+}
+
+

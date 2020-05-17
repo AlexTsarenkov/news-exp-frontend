@@ -1,0 +1,13 @@
+@import url(./_block/_main/result-area_block_main.css);
+@import url(./_block/_saved/result-area_block_saved.css);
+@import url(./_block/_preloader/result-area_block_preloader.css);
+@import url(./_block/_not-found/result-area_block_not-found.css);
+@import url(./__not-found-img/result-area__not-found-img.css);
+@import url(./__container/result-area__container.css);
+@import url(./__btn-more/result-area__btn-more.css);
+@import url(./_is-opened/result-area_is-opened.css);
+
+.result-area {
+    background: #F5F6F7;
+    display: none;
+}

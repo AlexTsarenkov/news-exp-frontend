@@ -1,0 +1,11 @@
+.card__button_type_add {
+    background-image: url('../../../../../images/card-normal.svg');
+}
+
+.card__button_type_add:hover {
+    background-image: url('../../../../../images/card-hover.svg');
+}
+
+.card__button_type_add:active {
+    background-image: url('../../../../../images/card-marked.svg');
+}

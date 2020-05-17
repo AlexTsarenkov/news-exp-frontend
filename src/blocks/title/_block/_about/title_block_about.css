@@ -1,0 +1,13 @@
+.title_block_about {
+    text-align: left;
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .title_block_about {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

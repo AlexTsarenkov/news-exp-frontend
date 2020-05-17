@@ -1,0 +1,32 @@
+@import url(./_theme/_dark/menu__button-container_theme_dark.css);
+@import url(./_theme/_light/menu__button-container_theme_light.css);
+
+.menu__button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 100px;
+    height: 48px;
+    align-items: center;
+    margin: 0 0 0 32px;
+    padding: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 768px) {
+    .menu__button-container  {
+        height: 40px;
+        margin: 0 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .menu__button-container { 
+        width: 100%;
+        margin: 22px 0 0 0;
+        height: 56px;
+    }
+}

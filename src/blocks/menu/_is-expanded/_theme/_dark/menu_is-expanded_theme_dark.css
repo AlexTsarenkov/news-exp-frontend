@@ -1,0 +1,5 @@
+.menu.menu_is-expanded_theme_dark {
+    background: #1A1B22;
+    border-bottom: 1px rgba(196, 196, 196, 0.01);
+    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,10 @@
+.text_block_not-found {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #B6BCBF;
+    height: 48px;
+    max-width: 356px;
+    margin: 16px auto 0 auto;
+}

@@ -1,0 +1,13 @@
+.title_block_search {
+    text-align: left;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .title_block_search {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+

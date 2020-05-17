@@ -1,0 +1,42 @@
+.search__form-button {
+    outline:none;
+    background: #2F71E5;
+    box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 168px;
+    height: 100%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.search__form-button:hover {
+    background: #347EFF;
+
+}
+
+.search__form-button:active {
+    background: #2A65CC;  
+}
+
+@media screen and (max-width: 768px) {
+    .search__form-button  {
+        width: 160px;
+    }
+}
+
+
+@media screen and (max-width: 470px) {
+    .search__form-button  {
+        position: initial;
+        margin: 16px auto 0 auto;
+        height: 56px;
+        width: 100%;
+    }
+}
+

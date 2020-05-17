@@ -1,0 +1,18 @@
+.menu__social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 0 0 42px;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__social-media {
+        margin: 0 0 0 26px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .menu__social-media {
+        margin: 0 0 0 18px;
+    }
+}

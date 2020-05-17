@@ -1,0 +1,24 @@
+@import url(./_is-expanded/menu__expand-button_is-expanded.css);
+@import url(./_theme/_black/menu__expand-button_theme_black.css);
+@import url(./_theme/_white/menu__expand-button_theme_white.css);
+
+.menu__expand-button{
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .menu__expand-button {
+        margin: 0;
+        border: 0;
+        display: block;
+        background-size: cover;
+        background-position: center;
+        height: 24px;
+        width: 24px;
+        border: none;
+        display: block;
+        cursor: pointer;
+        background-color: transparent;
+        outline:none;
+    }
+}

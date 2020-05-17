@@ -1,0 +1,14 @@
+.menu__button_type_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .menu__button_type_text   {
+        font-size: 16px;
+    }
+}

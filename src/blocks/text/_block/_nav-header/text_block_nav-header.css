@@ -1,0 +1,21 @@
+.text_block_nav-header {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .text_block_nav-header {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .text_block_nav-header {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 56px;
+    }
+}

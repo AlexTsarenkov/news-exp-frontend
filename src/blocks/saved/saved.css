@@ -1,0 +1,23 @@
+@import url(./__text/saved__text.css);
+
+.saved {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 40px 0 56px 104px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .saved   {
+        padding: 24px 0 32px 40px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .saved   {
+        padding: 8px 0 32px 15px;
+    }
+}

@@ -1,0 +1,14 @@
+@import url(./_block/_about/title_block_about.css);
+@import url(./_block/_card/title_block_card.css);
+@import url(./_block/_saved/title_block_saved.css);
+@import url(./_block/_search/title_block_search.css);
+@import url(./_block/_result/title_block_result.css);
+@import url(./_block/_not-found/title_block_not-found.css);
+
+.title {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: normal;
+}
+
+

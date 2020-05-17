@@ -1,0 +1,20 @@
+@import url(./_type/_input/popup__content_type_input.css);
+@import url(./_type/_message/popup__content_type_messge.css);
+
+.popup__content {
+    position: relative;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);   
+}
+
+
+@media screen and (max-width: 520px) {
+    .popup__content   {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: calc(100% - 56px);
+    }
+}

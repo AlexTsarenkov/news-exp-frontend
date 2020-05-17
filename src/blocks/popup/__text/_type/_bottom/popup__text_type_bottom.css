@@ -1,0 +1,9 @@
+@import url(./_color/_black/popup__text_type_bottom_color_black.css);
+@import url(./_color/_blue/popup__text_type_bottom_color_blue.css);
+
+.popup__text_type_bottom{
+    text-align: center;
+    margin: 16px 0 0 0;
+    font-size: 14px;
+    line-height: 17px;
+}

@@ -1,14 +1,27 @@
 .card__text-container {
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    padding: 20px 0 24px 0;
+    padding: 20px 0 0 0;
     width: calc(100% - 48px);
     margin: 0 auto;
+    box-sizing: border-box;
+    max-height: 50%;
 }
 
 @media screen and (max-width: 768px) {
     .card__text-container {
         width: calc(100% - 32px);
-        padding: 16px 0 16px 0;
+        padding: 16px 0 0 0;
+        max-height: 60%;
     }
+}
+
+@media screen and (max-width: 470px) {
+  .card__text-container {
+      width: calc(100% - 32px);
+      padding: 16px 0 0 0;
+      max-height: 50%;
+  }
 }
 

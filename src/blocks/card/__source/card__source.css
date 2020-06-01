@@ -1,4 +1,7 @@
 .card__source {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
@@ -7,18 +10,13 @@
     letter-spacing: 0.4px;
     text-transform: uppercase;
     color: #B6BCBF;
-    margin: 18px 0 0 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
     .card__source {
-        margin: 12px 0 0 0;
-    }
-}
-
-@media screen and (max-width: 470px) {
-    .card__source {
-        margin: 8px 0 0 0;
+        left: 16px;
+        bottom: 16px;
     }
 }
 

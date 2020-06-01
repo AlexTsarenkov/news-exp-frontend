@@ -9,6 +9,3 @@
 
 
 
-.popup__input-field:invalid:not(:placeholder-shown) + .popup__input-error {
-	display: block;
-}

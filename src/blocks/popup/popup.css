@@ -9,6 +9,7 @@
 @import url(./__submit-btn/popup__submit-btn.css);
 @import url(./__text/popup__text.css);
 @import url(./_is-opened/popup_is-opened.css);
+@import url(./__error/popup__error.css);
 
 .popup {
     position: fixed;

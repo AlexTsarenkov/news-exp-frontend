@@ -8,7 +8,6 @@
   <title>NewsExplorer</title>
   <link rel="shortcut icon" href="<%=require('./images/Favicon.svg').default%>">
   <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
-  <script src="<%=htmlWebpackPlugin.files.js %>"></script>
 </head>
 
 <body>
@@ -17,55 +16,17 @@
     <!-- Меню хедера. пользователь авторизирован -->
     <!-- Неавторизованный пользователь попасть на данную страницу в теории не может-->
     <!-- Когда открыто мобильное меню в тег header добавляется класс menu_is-expanded_theme_light"-->
-    <header class="menu menu_block_header">
-      <h1 class="menu__logo element_theme_light">NewsExplorer</h1>
-      <!-- Когда открыто мобильное меню в тег nav добавляется класс menu__nav-container_is-expanded_theme_light"-->
-      <nav class="menu__nav-container menu__nav-container_block_header">
-        <a class="menu__nav-item text text_block_nav-header element_theme_light" href="./index.html">Главная</a>
-        <a class="menu__nav-item text text_block_nav-header element_theme_light" href="#">Сохранённые
-          статьи</a>
-        <div class="menu__button-container menu__button-container_theme_light">
-          <p class="text text_block_nav-header element_theme_light">Username</p>
-          <img class="menu__logout-icon" src="<%=require('./images/logout_bk.svg').default%>" alt="logout">
-        </div>
-      </nav>
-      <!-- Когда открыто мобильное меню в тег button добавляется класс menu__expand-button_is-expanded"-->
-      <button class="menu__expand-button menu__expand-button_theme_black "></button>
-    </header>
+    <section class="root__section header__container"></section>
 
     <!-- Блок заголовка -->
     <section class="root__section saved">
       <p class="saved__text">Сохранённые статьи</p>
-      <h2 class="title title_block_saved element_theme_light">Username, у вас 5<br> сохранённых статей</h2>
-      <p class="text text_block_saved element_theme_light">По ключевым словам: <b>Природа</b>, <b>Тайга</b> и <b>2
-          другим</b></p>
+      <h2 class="title title_block_saved element_theme_light"></h2>
+      <p class="text text_block_saved element_theme_light"></p>
     </section>
 
      <!-- Блок сохраненных статей -->
     <section class="root__section result-area result-area_block_saved">
-      <div class="result-area__container">
-        <div class="cards-grid">
-          <div class="card">
-            <div class="card__tag">
-              <p class="text text_block_tooltip element_theme_light">Тайга</p>
-            </div>
-            <div class="card__button-container">
-              <div class="card__tooltip">
-                <p class="text text_block_tooltip element_theme_light">Убрать из сохранённых</p>
-              </div>
-              <button class="card__button card__button_type_delete"></button>
-            </div>
-            <img class="card__image" src="<%=require('./images/image_06.png').default%>" alt="card image">
-            <div class="card__text-container">
-              <p class="card__date">2 августа, 2019</p>
-              <h3 class="title title_block_card element_theme_light">Лесные огоньки: история одной фотографии</h3>
-              <p class="text text_block_card element_theme_light">В 2016 году Америка отмечала важный юбилей: сто лет
-                назад здесь начала складыв...</p>
-              <p class="card__source">MEDUZA</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Блок футера -->
@@ -86,6 +47,7 @@
       </div>
     </footer>
   </div>
+  <script src="<%=htmlWebpackPlugin.files.js[1]%>"></script>
 </body>
 
 </html>

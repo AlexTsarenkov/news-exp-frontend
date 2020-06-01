@@ -7,7 +7,10 @@ const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
-    entry: { main: './src/index.js' },
+    entry: {
+      main: './src/index.js',
+      saved: './src/saved-articles/index.js',
+     },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[chunkhash].js'
@@ -58,7 +61,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({ // 
+        new MiniCssExtractPlugin({ //
             filename: 'index.[contenthash].css',
         }),
         new HtmlWebpackPlugin({

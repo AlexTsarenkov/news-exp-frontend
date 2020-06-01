@@ -11,3 +11,7 @@
     line-height: 15px;
     color: #FF0000;
 }
+
+.popup__input-error.popup__input-error_is_opened {
+  display: block;
+}
